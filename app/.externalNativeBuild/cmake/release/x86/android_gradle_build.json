@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "C:/Users/gunit/AndroidStudioProjects/MASS/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\gunit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gunit\\AndroidStudioProjects\\MASS\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\gunit\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gunit\\AndroidStudioProjects\\MASS\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android26 --gcc-toolchain=C:/Users/gunit/AppData/Local/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/gunit/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\gunit\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\gunit\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/gunit/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/gunit/AndroidStudioProjects/MASS/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/gunit/AndroidStudioProjects/MASS/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "C:/Users/gunit/AndroidStudioProjects/MASS/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "4231157513"
+		}
+	},
+	"toolchains" : 
+	{
+		"4231157513" : 
+		{
+			"cCompilerExecutable" : "C:/Users/gunit/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/gunit/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

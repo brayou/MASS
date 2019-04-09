@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical" >
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9">
+
+            <CalendarView
+                android:id="@+id/calendar"
+                android:layout_marginTop="-10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graph"
+                android:layout_width="350dp"
+                android:layout_height="700dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--<FrameLayout-->
+        <!--android:layout_width="366dp"-->
+        <!--android:layout_height="250dp"-->
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--tools:layout_editor_absoluteY="8dp">-->
+
+        <!--<CalendarView-->
+            <!--android:id="@+id/calendarView2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</FrameLayout>-->
+</android.support.constraint.ConstraintLayout>

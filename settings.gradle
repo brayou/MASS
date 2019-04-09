@@ -1,0 +1,2 @@
+include ':app', ':bluetooth'
+project(':bluetooth').projectDir = new File('bt/bluetooth')
